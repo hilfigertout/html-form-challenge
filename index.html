@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fake Github Signup</title>
+  </head>
+  <body>
+    <h1>Sign up for GitHub</h1>
+    <form>
+        <label for="email">Email Address</label>
+        <input id="email" type="email" name="email">
+
+        <label for="password">Password</label>
+        <input id="password" type="password" name="password">
+
+        <label for="username">GitHub Username</label>
+        <input id="username" type="text" name="username">
+
+        <fieldset>
+            <legend>Which Version of GitHub are you using?</legend>
+            <input id="version-enterprise" type="radio" name="version" value="Enterprise">
+            <label for="version-enterprise">Enterprise</label>
+            <input id="version-pro" type="radio" name="version" value="Pro">
+            <label for="version-pro">Pro</label>
+            <input id="version-free" type="radio" name="version" value="Free">
+            <label for="version-free">Free</label>
+        </fieldset>
+
+        <input type="checkbox" name="remember-me" value="Remember"> Remember Me
+    
+        <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
